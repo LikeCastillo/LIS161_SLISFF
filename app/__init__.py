@@ -11,7 +11,7 @@ loginm = LoginManager(app)
 loginm.login_view = 'login'
 loginm.login_message_category = 'info'
 
-def create_app()
+def create_app():
 	app = Flask(__name__)
 	#Protect Against Cookie Modification
 	app.config['SECRET_KEY'] = 'f9a2fd8f07fae783cf24ae35997a2a7c'
